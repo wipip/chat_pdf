@@ -9,6 +9,13 @@ from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
 import platform
 
+st.set_page_config(
+    page_title="Generador IA basica",
+    page_icon="♫",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
 # App title and presentation
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
 st.write("Versión de Python:", platform.python_version())
