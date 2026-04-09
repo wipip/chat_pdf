@@ -29,7 +29,7 @@ except Exception as e:
 
 # Sidebar information
 with st.sidebar:
-    st.subheader("Este Agente te ayudará a realizar análisis sobre el PDF cargado")
+    st.subheader("Esta app the permitira realizarle preguntas en base a la información de los PDFs que cargues")
 
 # Get API key from user
 ke = st.text_input('Ingresa tu Clave de OpenAI', type="password")
